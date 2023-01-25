@@ -21,7 +21,8 @@ This API can recognize insects namely:
 
 which can create a serious loss for farmers around the world.
 
-Library: `FastAi`,`Pytorch`<br/>
+Language: `Python`<br/>
+Framework: `FastAi`,`Pytorch`<br/>
 Model: `Resnet50`<br/>
 
 # [Eye Disease Recognizer](https://aklimarimi.github.io/website/eyedisease.html)
@@ -32,7 +33,8 @@ At present, only 3 types of eye problems can be identified and they are `Catarac
 
 Which would be helpful for Medical Science.
 
-Library: `FastAi`,`Pytorch`<br/>
+Language: `Python`<br/>
+Framework: `FastAi`,`Pytorch`<br/>
 Model: `xresnet34_deeper`<br/>
 
 
