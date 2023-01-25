@@ -3,8 +3,7 @@ title: Home
 layout: page
 ---
 
-
-# Image Recognizer 
+# [Image Recognizer](https://aklimarimi.github.io/website/insect-recognizer.html)
 This API can recognize insects namely: 
 1. `Aphids`
 2. `Fruit Fly`
@@ -20,10 +19,14 @@ This API can recognize insects namely:
 12. `Spider Mites`
 13. `Stink Bug` 
 
-
-<img src='https://github.com/AklimaRimi/InsectRecognizer/blob/main/deployments/test_images/ter-insects-fruit-fly-article-2.jpg' width="150" height="150" title='Fruit Fly'/><img src = 'https://github.com/AklimaRimi/InsectRecognizer/blob/main/deployments/test_images/RS6QRSBQF0BQLSMK301QO00K9KHKAKIKJ0VQJ04KJ08QD0QKD00K2KKKOK4KZS7KOK7KAK4KJ0AQOK.jpg' height="150" width="150" title='Aphids'/><img src="https://github.com/AklimaRimi/InsectRecognizer/blob/main/deployments/test_images/mopane_caterpillar.jpg" width = '150' height='150' title='Caterpiller'/>
-
 which can create a serious loss for farmers around the world.
 
+# [Eye Disease Recognizer](https://aklimarimi.github.io/website/eyedisease.html)
+
+Every day thousands of people are going blind due to various eye diseases. So this ``API`` is build for diagnostic machine which can easily detect patient's eye problems.
+
+At present, only 3 types of eye problems can be identified and they are `Cataract`, `Glaucoma`, `Diabetic Retinopathy` and another is `Normal` eye.
+
+Which would be helpful for Medical Science.
 
 
