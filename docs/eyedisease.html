@@ -2,5 +2,30 @@
 title: Eye Disease Recognizer
 layout: page
 ---
+<input id='photo' type='File'>
+<div id='results'></div>
 
-<p> Hiiiii here </p>
+
+<script>
+  async function loaded(reader) 
+  {   
+     const response = await  fetch("https://rimi98-eyediseaseclassifier.hf.space/run/predict", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      data: [
+        reader.result,
+    ]
+    })})
+     const json = await response.json();
+    let label = json['data'][0]['label'];
+    results.innerHTML = `<br/> <img src = "${reader.result}" style = "height: 400px;"><br> <p style = "color: red;">${label}</p>`
+  
+   }
+  function read() {
+        const reader = new FileReader();
+        reader.addEventListener('load', () => loaded(reader))
+        reader.readAsDataURL(photo.files[0]);
+    }
+    photo.addEventListener('input', read);
+</script>
