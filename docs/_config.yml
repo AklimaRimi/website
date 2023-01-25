@@ -1,0 +1,6 @@
+remote_theme: daviddarnes/alembic@main
+plugins:
+- jekyll-remote-theme
+
+title: Insect Recognizer
+description: Recognize Top 13 Harmful Insects for crop
