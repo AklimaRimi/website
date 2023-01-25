@@ -21,6 +21,9 @@ This API can recognize insects namely:
 
 which can create a serious loss for farmers around the world.
 
+Library: `FastAi`,`Pytorch`<br/>
+Model: `Resnet50`<br/>
+
 # [Eye Disease Recognizer](https://aklimarimi.github.io/website/eyedisease.html)
 
 Every day thousands of people are going blind due to various eye diseases. So this ``API`` is build for diagnostic machine which can easily detect patient's eye problems.
@@ -28,5 +31,8 @@ Every day thousands of people are going blind due to various eye diseases. So th
 At present, only 3 types of eye problems can be identified and they are `Cataract`, `Glaucoma`, `Diabetic Retinopathy` and another is `Normal` eye.
 
 Which would be helpful for Medical Science.
+
+Library: `FastAi`,`Pytorch`<br/>
+Model: `xresnet34_deeper`<br/>
 
 
